@@ -22,17 +22,17 @@ public class OperadoresAritmeticos {
 
    int opcion; 
 
-    System.out.println("Bienvenidos!");
+    System.out.println("Bienvenido!");
 
-    System.out.println("Operadores Aritméticos");
+    System.out.println("Operaciones Aritmeticas a realizar");
 
-    System.out.println("1.Sumar enteros");
+    System.out.println("1.Sumar valores");
 
-    System.out.println("2.Restar enteros");
+    System.out.println("2.Restar valores");
 
-    System.out.println("3.multiplicar enteros");
+    System.out.println("3.Multiplicar valores");
 
-    System.out.println("4.Dividir enteros");
+    System.out.println("4.Dividir valor");
 
     System.out.println("Ingrese la opcion que desea elaborar: ");
 
@@ -58,7 +58,7 @@ public class OperadoresAritmeticos {
 
         suma=val1+val2;
 
-        System.out.println("El total de la suma es: "+suma);
+        System.out.println("El resultado de la suma es: "+suma);
 
         break; 
 
@@ -76,7 +76,7 @@ public class OperadoresAritmeticos {
 
         resta=val1-val2;
 
-         System.out.println("El total de la resta es: "+resta);
+         System.out.println("El resultado de la resta es: "+resta);
 
         break; 
 
@@ -94,7 +94,7 @@ public class OperadoresAritmeticos {
 
         multi=val1*val2;
 
-         System.out.println("El total de la multiplicacion es: "+multi);
+         System.out.println("El resultado de la multiplicacion es: "+multi);
 
         break; 
 
@@ -112,7 +112,7 @@ public class OperadoresAritmeticos {
 
         div=val1/val2;
 
-         System.out.println("El total de la division es: "+div);
+         System.out.println("El resultado de la division es: "+div);
 
         break;
 
